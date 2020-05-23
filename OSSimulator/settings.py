@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'systemcalls.apps.SystemcallsConfig',
     'deadlock',
+    'pagerep',
+    'cpusch',
 ]
 
 MIDDLEWARE = [
