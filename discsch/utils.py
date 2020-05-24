@@ -209,7 +209,7 @@ def look(inputDict):
 	prev = inputDict["prev"]
 	r.sort()
 
-	index=0
+	index=0;
 
 	for i in r:
 		if(i>curr):
@@ -249,7 +249,7 @@ def scan(inputDict):
 	r.append(0)
 	r.sort()
 
-	index=0
+	index=0;
 
 	for i in r:
 		if(i>curr):
@@ -287,7 +287,7 @@ def sstf(inputDict):
 
 	tr = r
 
-	index=0
+	index=0;
 	displacement = 0
 
 	for i in r:
