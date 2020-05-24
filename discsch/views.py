@@ -5,6 +5,7 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 from django.http import JsonResponse
 
+
 # Create your views here.
 from . models import DiskSchedAlg
 from . utils import cscan,clook, scan,look,sstf,fcfs

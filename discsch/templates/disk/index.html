@@ -9,29 +9,36 @@
 {% endblock %}
 
 {% block content %}
-<nav role="navigation" class="navbar navbar-default">
-    <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/process/">Process Scheduling</a></li>
-            <li><a href="/memory/page/">Page Replacement</a></li>
-            <li class="active"><a href="/disk/">Disk Scheduling</a></li>
-            <li><a href="/synchro/semaphores/">Semaphores</a></li>
-            <li><a href="/synchro/socket/">Sockets</a></li>
-            <li><a href="/filesystem/">File Structure</a></li>
-            <li><a href="/mat/">Memory Allocation</a></li>
-            <li><a href="/synchro/deadlocks/">Banker's Algorithm</a></li>
-        </ul>
-    </div>
-</nav>
 
-<h1>Disk Scheduling</h1>
-<div id="choice">
+<style>
+    body {
+        font-family: Arial;
+        margin: 0;
+    }
+    .content {
+        max-width: 500px;
+        margin: auto;
+    }
+    .colourstrip {
+        padding: 60px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 30px;
+    }
+</style>
+<body >
+<div class="colourstrip" ><h1 style="color: white;"><strong>DISK SCHEDULING</strong></h1></div>
+
+<div id="choice" style="align-content: center;">
     <ul id="ulchoice">
-        <a href="/disk/demo/"><li id="lichoice">Demo</li></a>
-        <a href="/wiki/disk/"><li id="wikichoice">Wiki</li></a>
+        <a href="/discsch/demo/"><li id="lichoice"><h2>DEMO</h2></li></a>
+        <a href="https://en.wikipedia.org/wiki/Category:Disk_scheduling_algorithms"><li id="wikichoice"><h2>WIKI</h2></li></a>
     </ul>
 </div>
+</body>
+
+
 
 <!-- <div class="main-container">
 {% for alg in algos %}
