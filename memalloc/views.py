@@ -3,4 +3,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Memory Allocation home page")
+    return render(request,
+    				template_name = 'memalloc/MFT.html')
