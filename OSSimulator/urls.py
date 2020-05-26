@@ -20,6 +20,8 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
+    path('terminal/', views.terminal),
+    path('team/',views.team ),
     path('systemcalls/', include('systemcalls.urls')),
     path('cpusch/', include('cpusch.urls')),
     path('discsch/', include('discsch.urls')),
