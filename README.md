@@ -40,13 +40,13 @@ python manage.py runserver
 
 ### Team Members
 ```bash
+Omanshu Mahawar(Team Leader)    181CO237
 Manas Trivedi                   181CO231
 Mohammed Rushad                 181CO232
 Mudavath Prathyusha             181CO233
 Nandan MK                       181CO234
 Nihar Kormbadka Gundyadka Rai   181CO235
 Nishtha Kumari                  181CO236
-Omanshu Mahawar                 181CO237
 Pasumarthi Kushwanth            181CO238
 Pranav Vighneshwar Kumar        181CO239
 Priyash Bhattarai               181CO240
