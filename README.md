@@ -1,5 +1,7 @@
 # OS-Simulator
 
+Hosted at https://os-sim.herokuapp.com/
+
 The OS-Simulator project was built by a team of 10 students from NITK, Surathkal, in partial fulfilment of the Operating Systems course (CS252) offered by the CSE Department of the institute.
 
 The simulator implements the following features:
